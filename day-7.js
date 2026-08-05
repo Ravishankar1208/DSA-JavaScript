@@ -11,10 +11,10 @@
 
 // for loop
 
- let prompt =  require("prompt-sync")()
+//  let prompt =  require("prompt-sync")()
 
-let num = Number(prompt("enter a number: "));
+// let num = Number(prompt("enter a number: "));
 
-for(let i = 1; i<=num ; i++){
-  console.log("Hello World");
-}
+// for(let i = 1; i<=num ; i++){
+//   console.log("Hello World");
+// }
