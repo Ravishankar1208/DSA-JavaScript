@@ -98,3 +98,49 @@
 
 
 
+
+
+
+
+// let arr = [10,,0,8,0,5,0,0,8,0,7,56,0,7];
+// let arr2= arr
+
+// let left = 0 ; right = arr.length -1
+
+// for(let i = 0; i<arr.length ; i++){
+//   if(arr[i]===0){
+//     arr[i]=0
+//     i++
+//   }
+
+// }
+
+// console.log(arr);
+
+
+
+
+
+
+
+
+
+
+
+
+
+// arr = [1,0,1,0,1,0,1,0,1,0,1,0,1,0]
+
+// let j = 0
+
+// for(let i=0; i<arr.length; i++){
+//   if (arr[i]===0) {
+//  temp=    arr[i] 
+//         arr[i] = arr[j]
+//     arr[j] = temp
+//     j++
+//   }
+// }
+
+
+// console.log(arr);
