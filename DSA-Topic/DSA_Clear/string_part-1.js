@@ -70,3 +70,62 @@ j--;
 }
 
 console.log(peledrom?"ispeledrom": "not-peledrom");
+
+
+
+
+
+
+
+
+
+
+
+
+
+function printEachChar(str) {
+    // Write your logic here
+
+    for(let i=0; i<str.length;i++){
+
+        console.log(str[i])
+    }
+
+}
+
+module.exports = { printEachChar };
+
+
+
+
+
+
+
+
+
+/**
+ * @param {string} str
+ * @return {string}
+ */
+ 
+function reverseString(str) {
+    // Write your logic here
+
+    let rev = ""
+     for(let i=str.length-1;i>=0;i--){
+     rev += str[i]
+    }
+  return (rev)
+}
+
+module.exports = { reverseString };
+
+
+
+
+
+
+
+
+
+
