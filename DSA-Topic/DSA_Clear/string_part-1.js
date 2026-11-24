@@ -1,23 +1,9 @@
-// let name = "ranjeet"
+// // let name = "ranjeet"
 
-// console.log(typeof(name));
-
-
-// console.log(name.length);
+// // console.log(typeof(name));
 
 
-
-
-
-
-
-
-
-// let prompt = require("prompt-sync")();
-
-// let string = prompt("enter any string");
-
-// console.log(string.split(""));
+// // console.log(name.length);
 
 
 
@@ -27,49 +13,63 @@
 
 
 
+// // let prompt = require("prompt-sync")();
 
-// let prompt = require("prompt-sync")();
+// // let string = prompt("enter any string");
 
-// let string = prompt("enter any string");
+// // console.log(string.split(""));
 
-// for(let i=0; i<string.length; i++){
 
-//   console.log(string.charAt(i));
+
+
+
+
+
+
+
+
+// // let prompt = require("prompt-sync")();
+
+// // let string = prompt("enter any string");
+
+// // for(let i=0; i<string.length; i++){
+
+// //   console.log(string.charAt(i));
+  
+// // }
+
+
+
+
+
+
+
+
+
+
+
+// let prompt = require('prompt-sync')()
+
+// let s =  prompt("enter a string: ");
+
+// let i=0, j=s.length-1
+
+// let peledrom = true;
+
+// while ((i<j)) {
+
+//   if(s.charAt(i)!=s.charAt(j)){
+
+//     peledrom = false;
+//     break
+//   }
+
+//   i++;
+// j--;
   
 // }
 
-
-
-
-
-
-
-
-
-
-
-let prompt = require('prompt-sync')()
-
-let s =  prompt("enter a string: ");
-
-let i=0, j=s.length-1
-
-let peledrom = true;
-
-while ((i<j)) {
-
-  if(s.charAt(i)!=s.charAt(j)){
-
-    peledrom = false;
-    break
-  }
-
-  i++;
-j--;
-  
-}
-
-console.log(peledrom?"ispeledrom": "not-peledrom");
+// console.log(peledrom?"ispeledrom": "not-peledrom");
 
 
 
@@ -83,19 +83,17 @@ console.log(peledrom?"ispeledrom": "not-peledrom");
 
 
 
-function printEachChar(str) {
-    // Write your logic here
+// function printEachChar(str) {
+//     // Write your logic here
 
-    for(let i=0; i<str.length;i++){
+//     for(let i=0; i<str.length;i++){
 
-        console.log(str[i])
-    }
+//         console.log(str[i])
+//     }
 
-}
+// }
 
-module.exports = { printEachChar };
-
-
+// module.exports = { printEachChar };
 
 
 
@@ -103,24 +101,24 @@ module.exports = { printEachChar };
 
 
 
-/**
- * @param {string} str
- * @return {string}
- */
+
+
+// /**
+//  * @param {string} str
+//  * @return {string}
+//  */
  
-function reverseString(str) {
-    // Write your logic here
+// function reverseString(str) {
+//     // Write your logic here
 
-    let rev = ""
-     for(let i=str.length-1;i>=0;i--){
-     rev += str[i]
-    }
-  return (rev)
-}
+//     let rev = ""
+//      for(let i=str.length-1;i>=0;i--){
+//      rev += str[i]
+//     }
+//   return (rev)
+// }
 
-module.exports = { reverseString };
-
-
+// module.exports = { reverseString };
 
 
 
@@ -129,3 +127,33 @@ module.exports = { reverseString };
 
 
 
+
+
+// /**
+//  * @param {string} str
+//  * @return {string}
+//  */
+// function isPalindromeInPlace(str) {
+//     // Write your code here
+
+//     let i=0, j= str.length-1;
+//     pen = true;
+
+//     while(i<j){
+
+//         if(str.charAt(i)!=str.charAt(j)){
+//             pen= false;
+//             break;
+//         }
+//         i++;
+//         j--
+//     }
+//     if(pen=== true){
+//         return "Yes"
+//     }
+//     else{
+//         return "No"
+//     }
+// }
+
+// module.exports = { isPalindromeInPlace };
