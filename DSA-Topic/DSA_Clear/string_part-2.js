@@ -66,3 +66,87 @@
 
 
 
+
+
+
+// // let prompt = require("prompt-sync")()
+
+// // let words = ["pay", "atttention","attjnjn" ,"practice", "attend"]
+
+// // let pref = "at"
+// // let count= 0;
+
+// // for(let i=0; i<words.length ; i++){
+// //   if(words[i].startsWith(pref)){
+// //     count++
+// //   }
+// // }
+
+// // console.log(count);
+
+
+
+
+
+
+
+
+
+
+// let s = "hello bhai kya haal chal";
+
+// let arr = s.split(" ");
+// let ans = "";
+
+// for(let i=0; i<arr.length; i++){
+
+//   let word = arr[i]
+
+//   let first = word.charAt(0).toUpperCase();
+//   let mid= word.substring(1, word.length-1)
+//   let last=word.charAt(word.length-1).toUpperCase();
+
+//   ans= ans+(first+ mid+ last)+" "
+// }
+
+// console.log(ans);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+let prompt = require("prompt-sync")()
+let s = "naman"
+let arr = new Array(128).fill(0);
+
+
+for(let i=0; i<s.length;i++){
+   let asy = s.charCodeAt(i)
+   arr[asy] = arr[asy]+1;
+}
+
+
+
+
+for(let i=0; i<arr.length; i++){
+  if(arr[i]>0){
+    console.log(String.fromCharCode(i)+"->"+arr[i]);
+    
+  }
+}
